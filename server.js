@@ -11,7 +11,8 @@ const hooks = require('./lib/hooks')
 const bot = new Bot({
   username: __CONFIG__.kik.botUsername,
   apiKey: __CONFIG__.kik.apiKey,
-  baseUrl: __CONFIG__.kik.baseUrl
+  baseUrl: __CONFIG__.kik.baseUrl,
+  staticKeyboard: new Bot.ResponseKeyboard(['Random game', 'Another Random game'])
 })
 
 // updates configuration and auth

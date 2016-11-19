@@ -20,7 +20,7 @@
     "nodemon": "^1.9.1"
   },
   "dependencies": {
-    "@kikinteractive/kik": "^2.0.0",
+    "@kikinteractive/kik": "^2.0.12",
     "moment": "^2.12.0",
     "superagent": "^1.8.3",
     "winston": "^2.2.0"
